@@ -1,0 +1,19 @@
+/*
+    box-sizing
+
+    como sera calculado o tamanho total da caixa?
+
+    - content-box (padrao) | border-box
+*/
+
+div {
+    /* total se torna content + padding */
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10%;
+    padding: 0 20px; 
+
+    /* garante que o calculo da caixa seja de borda a borda o valor do width e height mesmo com padding */
+    box-sizing: border-box;
+}

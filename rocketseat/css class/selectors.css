@@ -1,0 +1,33 @@
+/*
+    Selectors
+
+    conecta um elemento html com css
+
+    tipos
+        Global *
+        element/type h1, h2, p, div
+        ID selector #id1, #id2
+        attribute selector, pseudo-class, pseudo element e outros
+*/
+
+/* modifica global */
+* {
+    margin: 0;
+}
+
+/* modifica por ID */
+#container {
+    width: 200px;
+}
+
+/* modifica por classe */
+.m-40 {
+    margin: 40px;
+}
+
+/* modifica o tipo de estrutura */
+h1, h2 {
+    color: green;
+    font-size: 60px;
+    background: gray;
+}

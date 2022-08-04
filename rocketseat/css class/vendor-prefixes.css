@@ -1,0 +1,16 @@
+/*
+    permite que browsers adicione 'features' a fim de colocar em uso alguma novidade no css
+*/
+
+p {
+    -webkit-background-clip: text; /* chrome safari, ios, android */
+    -moz-background-clip: text; /* mozilla */
+    -ms-background-clip: text; /* IE */
+    -o-background-clip: text; /* Opera */
+}
+
+/* 
+    consultas 
+    http://ireade.github.io/wich-vendor-prefix/
+    http://caniuse.com
+*/

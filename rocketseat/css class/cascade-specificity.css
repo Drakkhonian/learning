@@ -1,0 +1,32 @@
+/*
+    a cascata (cascade)
+
+    A escolha do browser de qual regra aplicar caso haja muitiplas regras para o mesmo elemento
+
+    é lido de cima pra baixo
+
+    3 fatores sao levados em consideracao:
+    1 Origem do estilo
+    2 Especificidade
+    3 importancia
+
+    ordem por origem
+
+    inline > tag style > tag link
+
+    especificidade
+
+    Calculo matematico onde cada tipo de seletor e origem possuem valores a serem considerados
+
+    0 Universal selector, combinators e negation pseudo-class :not()
+    1 Element type selector and pseudo-elements
+    10 Classes and attribute selectors type="bulb"
+    100 ID selector
+    1000 inline
+
+    pode-se adicionar os seletores
+*/
+
+body h1.title#mytitle { /* total 1 + 1 + 10 + 100 = 102 */ 
+    color: aqua;
+}

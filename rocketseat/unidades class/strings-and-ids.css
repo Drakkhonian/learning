@@ -1,0 +1,24 @@
+/*
+    strings e identificadores
+    strings: texto envolto em aspas
+    identificadores: red, black, gold, etc;
+*/
+
+body { /* por padrao body n tem height, para fazer calc() prescisa */
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    height: calc(50% + 20px);
+    width: calc(100% - 40px);
+    background-image: url(https://static.wikia.nocookie.net/aselia/images/d/d9/Eugene_Gallardo.jpg);
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box::after {
+    content: "Mensagem aqui";
+    color: black;
+}

@@ -1,0 +1,39 @@
+/* 
+    distancia absoluta <length>
+
+    sao fixas e nao alteram seu valor em outros dispositivos
+    cm - centimetros - 1cm = 96px/2.54
+    in - inches - 1in = 2.54cm = 96px
+    px - pixels - 1px = 1/96 in
+
+    o mais comum e mais utilizado: px
+    nao se recomenda uso de cm
+
+    distancia relativa
+
+    sao relativas a algum outro valor, pode ser ao elemento pai, ou root, ou ao tamanho total da tela
+
+    maior adaptacao aos diferentes tipos de tela
+
+    em - tamanho da font do pai
+    rem - tamanho da font do root/html
+    vw - 1% da vewport width
+    vh - 1% da viewport height
+*/
+
+div {
+    font-size: 18px;
+}
+
+/* rem padrao 16px*/
+:root {
+    font-size: 16px;
+}
+
+html{
+    font-size: 16px;
+}
+
+p {
+    font-size: 2em;
+}

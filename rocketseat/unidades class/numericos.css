@@ -1,0 +1,12 @@
+/* tipos numericos
+    <integer> numero inteiro
+    <number> numero decimal
+    <dimension> eh um <number> com uma unidade
+    <percentage> fracao %
+   
+   Unidades comuns
+    <length> distancia: px, em, vw
+    <angle> angulo: deg, rag, turn
+    <time> tempo: s, ms
+    <resolution> resolucoes para dispositivos: dpi
+*/

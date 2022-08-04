@@ -1,0 +1,18 @@
+/*
+    bom model
+
+    fundamental para fazer layout pra web
+    maior facilidade para aplicar css
+
+    o q é?
+
+    uma caixa retangular
+    possue propriedades 2d
+    tamanho (largura x altura) - width | height
+    conteudo - content
+    bordas - border
+    preenchimento interno - padding
+    espaco fora da caixa - margin
+
+    cada elemento da pagina sera considerado uma caixa
+*/

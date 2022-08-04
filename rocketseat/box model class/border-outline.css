@@ -1,0 +1,58 @@
+/*
+    border (e outline)
+    as bordas da caixa
+    <border-style> | <border-width> | <border-color>
+    values
+        style: solid | ditted | dashed | double | groove | ridge | inset | outset
+        width: <length>
+        color: <color>
+*/
+
+* {
+    margin: 0;
+}
+
+#div1 {
+    /* border-top-width: value seria o caminho completo */
+    width: 100px;
+    height: 100px;
+    margin: 20% auto;
+
+    /* shorthand */
+    border: 20px dotted red;
+    border-top: solid 2px;
+
+    /* style */
+    border: solid;
+
+    /* width <length> | style */
+    border: 2px dotted;
+
+    /* style | color */
+    border: outset #f33;
+
+    /* width | style | color */
+    border: medium dashed green;
+
+    box-sizing: border-box; /* faz com que o tamanho seja sempre o mesmo */
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    margin: 20% auto;
+
+    border-top: red solid 1em;
+    border: 1px solid red; /* total de height e width 102 */
+
+    /* outline: yellow 4px solid; */
+}
+
+/*
+    outline
+    difere em 4 sentidos
+    nao modifica o tamanho da caixa pois nao e parte do box model
+    pode ser diferente de um retangulo
+    nao permite ajustes individuais
+    mais usado para agent para acessibilidade
+*/

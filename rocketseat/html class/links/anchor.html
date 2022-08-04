@@ -1,0 +1,40 @@
+<!-- hyperlinks <a>
+    atributos:
+        globais
+        href - pra onde vai
+            url completa
+            fragmento <href="#partedosite"> vai para outras partes do mesmo site
+            email <href="mailto:email@.com> abre o default de email do pc
+            telefone <href="tel:+5515998887766"> utiliza facetime etc para ligacao
+            e outros
+        download
+        target 
+            _self nao abre nova tab (padrao)
+            _blank abre nova tab
+        -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://aselia.fandom.com/wiki/Tales_of_Rebirth">rebirth wiki</a>
+    <ul> 
+        <li>
+            <a href="#frag1" title="merda">
+                frag1
+                <p>da pra de nesting nesssa porra toda do q for</p>
+            </a>
+        </li>
+        <li>
+            <a href="@frag2">frag2</a>
+        </li>
+    </ul>
+    <h1 id="frag1">frag 1</h1> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio facere velit excepturi reprehenderit possimus! Laboriosam iste odio animi, consequatur ipsam et quidem nemo omnis adipisci tempora modi odit repudiandae!
+    <h2 id="frag2">frag 2</h2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolor, velit maxime provident vitae esse quasi reiciendis, non quis optio aliquam sunt, voluptates minima dolorum. Quia ea laborum repellat quas?
+</body>
+</html>

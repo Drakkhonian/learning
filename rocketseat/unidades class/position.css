@@ -1,0 +1,19 @@
+/*
+    posicoes
+
+    <position>
+
+    representa um conjunto de coordenadas 2d
+    top, right bottom, left e center
+    usado para alguns tipos de propriedades
+    nao confundir com a propriedade 'position'
+*/
+
+.box {
+    height: 300px;
+    width: 400px;
+    background-image: url(https://static.wikia.nocookie.net/aselia/images/d/d9/Eugene_Gallardo.jpg);
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-position: center;
+}

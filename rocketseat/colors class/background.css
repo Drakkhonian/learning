@@ -1,0 +1,64 @@
+/*
+    background
+
+    define um fundo para o noso elemento
+    sua area de atuacao e a caixa toda
+    por padra e transparente
+
+    exemplos
+
+    usar cores solidas
+    usar imagens
+    controlas
+        a posicao das imagens
+        se elas se repetem ou nao
+        o tamanho delas na caixa
+    usar cor e imagem juntas
+    usar cor gradiente
+*/
+* {
+    margin: 0;
+}
+
+#header1 {
+    height: 100px;
+    border: 7px dashed red;
+    background-color: aqua;
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://www.ultimaficha.com.br/wp-content/uploads/2021/07/Legend-of-Mana_20210622211041-780x470.jpg);
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-position: right; /* horizontal - vertical */
+    background-position: center top;
+    background-position: left bottom;
+    background-size: cover; /* contain | cover | <percentage> horizontal <percentage <vertical> | auto | em | px */
+    background-origin: border-box; /* content-box (padrao nao conta padding) | padding-box (conta area do padding) */
+    background-clip: border-box;
+}
+
+main {
+    color: white;
+    border: 7px dashed red;
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://www.ultimaficha.com.br/wp-content/uploads/2021/07/Legend-of-Mana_20210622211041-780x470.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* contain | cover | <percentage> horizontal <percentage <vertical> | auto | em | px */
+    background-origin: content-box; /* content-box (padrao nao conta padding) | padding-box (conta area do padding) */
+    background-clip: content-box;
+    background-attachment: fixed; /* scroll (padao) | fixed */
+
+    /* shorthand */
+    /* color image repeat position / size origin clip attachment */
+
+    background: rgb(55, 100, 50) url(https://www.ultimaficha.com.br/wp-content/uploads/2021/07/Legend-of-Mana_20210622211041-780x470.jpg) no-repeat right top / contain border-box content-box fixed;
+
+    /* gradient background */
+    /* background: linear-gradient(45deg, red, yellow, green); */
+    background: radial-gradient(blue, purple);
+
+    /* mutiplos backgrounds desenha do ultimo ao primeiro */
+    background: url(https://www.ultimaficha.com.br/wp-content/uploads/2021/07/Legend-of-Mana_20210622211041-780x470.jpg) no-repeat right top / contain border-box content-box fixed, linear-gradient(45deg, red, yellow, green);
+
+}

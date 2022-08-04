@@ -1,0 +1,26 @@
+/* 
+    Anatomia
+*/
+
+h1 {
+    color: blue;
+    font-size: 60px;
+    background: gray;
+}
+
+/* 
+    Selector  
+        h1 
+            o que procurar
+    Declaration 
+        {} 
+            o q ta interno
+    Properties  
+        color:
+        font-size:
+        background:
+    Property Value
+        blue;
+        60px;
+        gray;
+*/

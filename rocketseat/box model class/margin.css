@@ -1,0 +1,41 @@
+/*
+    margin
+
+    espaço entre elementos
+
+    margin-top | margin-right | margin-bottom | margin-left
+    values: <length> | <percentage> | auto (nao se aplica a top|bottom)
+
+*/
+* {
+    margin: 0;
+}
+
+#div1, #section1 {
+    /* sorthand */
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    /* top right bottom left */
+    margin: 12px 16px 10px 4px;
+    /* top right|left bottom */
+    margin: 12px 16px 0;
+    /* top|bottom right|left */
+    margin: 8px 16px;
+    /* todos */
+    margin: 0px;
+
+    /* display: inline;
+    margin: 0 3px; */
+
+}
+
+/* cuidado com mnargin-collapsing (top se ajunta ao bottom) - as margins top e bottom nao somam */
+
+#div1 {
+    margin-bottom: 8px;
+}
+
+#section1 {
+    margin-top: 8px;
+}

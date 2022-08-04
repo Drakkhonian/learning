@@ -1,0 +1,22 @@
+/* Introducao */
+
+/* 
+O que significa CSS
+
+* Cascading Style Sheet
+* Codigo para criar estilos no html
+* Html é a estrutura e o CSS é a beleza
+* Nao é uma linguagem de Programação
+* É uma linguagem style sheet
+*/
+
+/* 
+    nao eh sugerido usarm import pois demora mais para abrir a pagina 
+    prefirivel usar link
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap');
+
+h1{
+    color: blueviolet;
+    font-family: 'Ibarra Real Nova', serif;
+}

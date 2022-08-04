@@ -1,0 +1,9 @@
+/*
+    a regra important sobressai sobre tudo
+    nao recomendado utlizar
+    usado apenas quando prescisa sobresair sobre bibliotecas de terceiros
+*/
+
+h1 {
+    color: brown !important;
+}

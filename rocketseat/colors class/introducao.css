@@ -1,0 +1,58 @@
+/*
+    cores
+
+    usamos css para alterar cores do nosso documento
+
+    tipos
+
+    background-color (para caixas)
+    color (para textos)
+    border-color (para caixas)
+    ouros...
+
+    valores
+
+    podemos deifinir os valores por
+
+    palavra-chave (red, blue, transparent)
+    hexadecimal (#990011) #RRGGBB
+    funcoes: rgb, rgba, hsl, hsla
+*/
+
+#div1 {
+    /* keyword values */
+    color: currentColor;
+
+    /* <named-color> values */
+    color: red;
+    color: orange;
+    color: tan;
+    color: rebeccapurple;
+
+    /* <hex-color> values 0-F */
+    color: #090; /* red green blue */
+    color: #009900;
+    color: #090a; /* a significa alpha e mexe a transparencia */
+    color: #009900aa;
+
+    /* <rgb()> values */
+    color: rgb(34, 12, 64, 0.6); /* 0-255 */
+    color: rgba(34, 12, 64, 0.6);
+    color: rgb(34 12 64 / 0.6);
+    color: rgba(34 12 64 / 0.3);
+    color: rgb(34.0 12 64 / 60%);
+    color: rgba(34.6 12 64 / 30%);
+
+    /* <hsl()> values */
+    color: hsl(30, 100%, 50%, 0.6); /* hue saturation luminance|lightness */
+    color: hsla(30, 100%, 50%, 0.6);
+    color: hsl(30 100% 50% / 0.6);
+    color: hsla(30 100% 50% / 0.6);
+    color: hsl(30.0 100% 50% / 60%);
+    color: hsla(30.2 100% 50% / 60%);
+
+    /* globals values */
+    color: inherit;
+    color: initial;
+    color: unset; /* utiliza cor do contexto */
+}

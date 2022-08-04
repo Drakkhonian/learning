@@ -1,0 +1,13 @@
+/*
+    caixas
+
+    QUASE tudo sao caixas
+    possuem posicionamentos, tamanhos, espacamentos, bordas, cores, etc
+    caixas podem ficar um ao lado da outra, acima, sobre etc
+    elementos html sao caixas
+*/
+h1 {
+    border: 1px solid red;
+    margin: 20px;
+    padding: 60px;
+}
