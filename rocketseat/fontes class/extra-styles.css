@@ -1,0 +1,85 @@
+/*
+    atribuindo mais estilos as fontes
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant
+*/
+#div1 {
+    font-family: 'Lato', sans-serif;
+    /*
+        font-variant
+        variacoes na apresentacao da fonte
+    */
+    font-variant: small-caps;
+    /*
+        font-stretch
+        alargamento ou encolhimento da fonte
+        aceita palavras-chave como: expanded, condensed, normal
+        aceita de 50% a 200%
+    */
+    font-stretch: expanded;
+    font-stretch: 200%;
+    /*
+        letter-spacing
+
+        espacos entre caracteres
+    */
+    letter-spacing: 4px;
+    letter-spacing: 1em;
+    /*
+        word-spacing
+
+        espacos entre palavras
+    */
+    word-spacing: 4px;
+    /*
+        line-height
+
+        espacos entre linhas
+        pode ser com unidades ou sem unidades de medida
+        comuns: 1.5 ou 2
+        https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+    */
+    line-height: 1.6;
+    /*
+        text-transform
+
+        transformacoes do texto
+        https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
+    */
+    text-transform: uppercase; /* capitalize | lowercase | none */
+    /*
+        text-decoration
+
+        aparencia decorativa de um texto
+        line: underline | overline | line-through
+            pode ter mais de um valor
+        style: wavy | dotted | double | dashed | solid
+        color: '<color>' values
+        https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+    */
+    text-decoration: underline overline dotted royalblue;
+    /*
+        text-align
+        
+        alinhamento do texto
+        https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+    */
+    text-align: center; /* left | right | center | justify */
+    /*
+        text-shadow
+
+        sombra aplicada a um texto
+        permite multiplos valores
+        https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+        offset-x | offset-y | blur-radius | color
+    */
+    text-shadow: 
+        1px 1px 8px red,
+        2px 2px 1px green;
+    /*
+        shorthand
+        font-style, font-variant, font-weight, font-stretch, font-size, line-height, font-family
+    */
+    font: italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif;
+    
+}
